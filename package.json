@@ -1,0 +1,56 @@
+{
+  "name": "BLNKCNVS",
+  "homepage": "https://demos.creative-tim.com/notus-nextjs",
+  "version": "1.1.0",
+  "description": "BLNKCNVS",
+  "repository": "https://github.com/creativetimofficial/notus-nextjs",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@popperjs/core": "2.9.1",
+    "@tailwindcss/forms": "0.2.1",
+    "chart.js": "2.9.4",
+    "framer-motion": "^6.5.1",
+    "gulp": "^3.9.1",
+    "gulp-append-prepend": "1.0.8",
+    "next": "^12.2.2",
+    "next-videos": "1.4.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-intersection-observer": "^9.3.5",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^2.2.19"
+  },
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
+    "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.2.5",
+    "postcss": "12.2.2"
+  }
+}
