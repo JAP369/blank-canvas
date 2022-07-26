@@ -1,9 +1,9 @@
 {
-  "name": "BLNKCNVS",
-  "homepage": "https://demos.creative-tim.com/notus-nextjs",
+  "name": "blank-canvas",
+  "homepage": "",
   "version": "1.1.0",
-  "description": "BLNKCNVS",
-  "repository": "https://github.com/creativetimofficial/notus-nextjs",
+  "description": "blank-canvas",
+  "repository": "https://github.com/JAP369/blank-canvas.git",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
@@ -28,6 +28,7 @@
     "start": "next start",
     "build": "next build",
     "dev": "next dev",
+    "export": "next export",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
     "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css"
   },
